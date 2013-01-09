@@ -1,5 +1,5 @@
 void setup() {
-  size(480, 480);
+  size(1366, 768);
   smooth();
   }
   
@@ -10,5 +10,6 @@ void draw() {
     fill(255);
   }
   ellipse(mouseX, mouseY, 80, 80);
+
 }  
 
