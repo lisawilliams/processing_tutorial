@@ -42,5 +42,29 @@ rect(219, 257, 90, 120); // Draw the main body (in black)
 fill(102); // Set fill to gray
 rect(219, 274, 90, 6); // Draw gray stripe on the body 
 
+// Let's draw the head
+
+fill(0); // Set fill to black
+ellipse(276, 155, 45, 45); // Head.  A circle 276 px from the left edg and 155 px from the top with a diameter of 45px
+
+// Lets draw the big eye
+fill(255); // Set fill to white
+ellipse(288, 150, 14, 14); 
+
+// Eyes without pupils look weird, let's add a pupil
+fill(0); 
+ellipse (288, 150, 3, 3); // note that the pupil's centerpoint is 288 X 150, just like the eye.  But the diameter is smaller, only 3px, while the eye is 14px
+
+// This is science fiction, let's have some more eyes
+fill(0); // black
+ellipse(263, 148, 5, 5); // Small eye
+
+// even more eyes! little sensor ones ringing the big one
+fill(153);
+ellipse(263, 148, 5, 5);
+ellipse(296, 130, 4, 4);
+ellipse(305, 162, 3, 3); 
+
+
 
 
